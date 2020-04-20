@@ -4,6 +4,7 @@ import "./styles.css";
 interface Car {
   name: string;
   model: string;
+  year: Date;
 }
 
 export default function App() {
